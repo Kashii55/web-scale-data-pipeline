@@ -1,0 +1,29 @@
+
+scraper:
+
+  base_url: "https://books.toscrape.com"
+
+  timeout: 30
+
+  retries: 3
+
+  concurrency: 5
+
+  headless: true
+
+  proxy: null
+
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+database:
+
+  host: "localhost"
+
+  port: 5432
+
+  name: "scraper_db"
+
+  user: "postgres"
+
+  password: "....."
+
